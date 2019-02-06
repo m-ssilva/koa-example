@@ -12,6 +12,7 @@ registerRoutes(Router, path.join(__dirname, './routes'))
 
 app.use(bodyParser())
 app.use(Router.routes())
+
 mongoose.connect(config.mongodb.connString, config.mongodb.configs)
 
 app.listen(config.api.port, () => { console.log(`API running on ${config.api.port}`) })

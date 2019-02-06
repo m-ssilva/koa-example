@@ -1,8 +1,7 @@
 const controller = require('../controller/index.controller')
-const urlBase = '/api'
 
 module.exports = {
     method: 'get',
-    path: urlBase,
+    path: '/api',
     action: controller.get
 }

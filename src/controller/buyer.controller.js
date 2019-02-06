@@ -11,6 +11,17 @@ exports.getAll = async (ctx) => {
         })
 }
 
+exports.getById = async (ctx) => {
+    await buyerRepository.getById(ctx.params.id)
+        .then((buyer) => {
+            ctx.status = 200
+            ctx.body = buyer
+        }).catch((err) => {
+            ctx.status = 500
+            ctx.body = err
+        })
+}
+
 exports.post = async (ctx) => {
     let buyer = ctx.request.body
     await buyerRepository.create(buyer)

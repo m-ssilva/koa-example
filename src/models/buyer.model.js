@@ -2,9 +2,6 @@
 
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
-const config = require('../config')
-
-//mongoose.connect(config.mongodb.connString, config.mongodb.configs)
 
 const BuyerSchema = new Schema({
     'name': { type: String, required: true },
