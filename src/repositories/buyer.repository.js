@@ -11,3 +11,7 @@ exports.getById = (id) => {
 exports.create = (buyer) => {
     return Buyer.create(buyer)
 }
+
+exports.getByDocument = (document) => {
+    return Buyer.find({ 'document': document })
+}

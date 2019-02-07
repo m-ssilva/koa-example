@@ -36,3 +36,9 @@ exports.post = async (ctx) => {
             ctx.body = err
         })
 }
+
+exports.getByDocument = async (document) => {
+    let results = await buyerRepository.getByDocument(document)
+    if (results.length > 0) { return true }
+    else { return false }
+}
