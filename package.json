@@ -4,8 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon ./src/app.js"
+    "test": "jest --watchAll",
+    "dev": "nodemon ./src/server.js"
   },
   "author": "m-ssilva",
   "license": "ISC",
@@ -13,11 +13,14 @@
     "filter-files": "^0.4.0",
     "koa": "^2.7.0",
     "koa-bodyparser": "^4.2.1",
+    "koa-logger": "^3.2.0",
     "koa-router": "^7.4.0",
     "lodash": "^4.17.11",
-    "mongoose": "^5.4.10"
+    "mongoose": "^5.4.10",
+    "supertest": "^3.4.2"
   },
   "devDependencies": {
+    "jest": "^24.1.0",
     "nodemon": "^1.18.9"
   }
 }
