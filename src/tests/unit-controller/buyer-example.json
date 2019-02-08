@@ -1,0 +1,47 @@
+[
+    {
+        "_id": "5c5a42f573af3b2410857a96",
+        "name": "tunga",
+        "document": "4654654454",
+        "currency": "BRL",
+        "created_date": "2019-02-06T02:14:13.982Z",
+        "update_date": "2019-02-06T02:14:13.982Z",
+        "__v": 0
+    },
+    {
+        "_id": "5c5a43c2766e391708f75e74",
+        "name": "tunga1",
+        "document": "46546544554",
+        "currency": "BRL",
+        "created_date": "2019-02-06T02:17:38.882Z",
+        "update_date": "2019-02-06T02:17:38.882Z",
+        "__v": 0
+    },
+    {
+        "_id": "5c5a46ebafff5529604dcea8",
+        "name": "tunga1",
+        "document": "4654654554",
+        "currency": "BRL",
+        "created_date": "2019-02-06T02:31:07.375Z",
+        "update_date": "2019-02-06T02:31:07.375Z",
+        "__v": 0
+    },
+    {
+        "_id": "5c5a47310296aa16c87a5cd6",
+        "name": "tunga1",
+        "document": "465464554",
+        "currency": "BRL",
+        "created_date": "2019-02-06T02:32:17.491Z",
+        "update_date": "2019-02-06T02:32:17.491Z",
+        "__v": 0
+    },
+    {
+        "_id": "5c5a4775296fe73878b4acfb",
+        "name": "tunga1",
+        "document": "4654645554",
+        "currency": "BRL",
+        "created_date": "2019-02-06T02:33:25.894Z",
+        "update_date": "2019-02-06T02:33:25.894Z",
+        "__v": 0
+    }
+]
